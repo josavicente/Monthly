@@ -17,6 +17,8 @@
 		806D3C7B2983106F00BF8FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806D3C7A2983106F00BF8FC8 /* Assets.xcassets */; };
 		806D3C7F2983106F00BF8FC8 /* MonthlyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 806D3C712983106E00BF8FC8 /* MonthlyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		806D3C85298318B800BF8FC8 /* MonthlyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C84298318B800BF8FC8 /* MonthlyConfig.swift */; };
+		80882C45298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80882C44298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition */; };
+		80882C46298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80882C44298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		806D3C7A2983106F00BF8FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806D3C7C2983106F00BF8FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		806D3C84298318B800BF8FC8 /* MonthlyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyConfig.swift; sourceTree = "<group>"; };
+		80882C44298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MonthlyWidgetsIntents.intentdefinition; sourceTree = "<group>"; };
+		80882C47298AF703005858E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		806D3C5E2983103A00BF8FC8 /* Monthly */ = {
 			isa = PBXGroup;
 			children = (
+				80882C47298AF703005858E3 /* Info.plist */,
 				806D3C5F2983103A00BF8FC8 /* MonthlyApp.swift */,
 				806D3C612983103A00BF8FC8 /* ContentView.swift */,
 				806D3C632983103B00BF8FC8 /* Assets.xcassets */,
@@ -132,6 +137,7 @@
 				806D3C7A2983106F00BF8FC8 /* Assets.xcassets */,
 				806D3C7C2983106F00BF8FC8 /* Info.plist */,
 				806D3C84298318B800BF8FC8 /* MonthlyConfig.swift */,
+				80882C44298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition */,
 			);
 			path = MonthlyWidget;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 			files = (
 				806D3C622983103A00BF8FC8 /* ContentView.swift in Sources */,
 				806D3C602983103A00BF8FC8 /* MonthlyApp.swift in Sources */,
+				80882C45298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +255,7 @@
 			files = (
 				806D3C792983106E00BF8FC8 /* MonthlyWidget.swift in Sources */,
 				806D3C85298318B800BF8FC8 /* MonthlyConfig.swift in Sources */,
+				80882C46298AF6D7005858E3 /* MonthlyWidgetsIntents.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +396,7 @@
 				DEVELOPMENT_TEAM = ZQDPVPQ343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -418,6 +427,7 @@
 				DEVELOPMENT_TEAM = ZQDPVPQ343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Monthly/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
